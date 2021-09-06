@@ -3,6 +3,7 @@
 # Setup for repositories
 The first step of the project was to make sure that SSH key was tied to github so the website and the server knew it was talking to themselfs. 
 The first step was to create a ssh key with the command "ssh-keygen -t ed25519 -C "johnston.124@wright.edu"". After that I moved to copy the key with the command "cat id_25519.pub" and that spitted out the key. After that I just moved to github and pasted it to the ssh keygen tab. After this was done it was a simple command "git clone git@github.com:WSU-kduncan/ceg3120-AndrewJohnston12.git" to clone my repo.
+
 # Users, Folders, Permissions
 the user is the one that that access to the server. You can add more users but you have to make sure they have access to the keys so they can log into the server 
 permissions of a file can be found by the command "ls -lah" and they break down into user, group, and all users and you can change the permissions of files with commands like "chmod 600 ceg3120-f21.pem"
